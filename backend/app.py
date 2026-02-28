@@ -79,7 +79,7 @@ def get_assessment():
     if not email:
         return jsonify({"message": "Email is required"}), 400
         
-    assessment = db.assessments.find_one({"email": email}, {"_id": 0})
+    assessment = db.assessments.find_one({"user.email": email}, {"_id": 0})
     
     if assessment:
         return jsonify(assessment), 200
