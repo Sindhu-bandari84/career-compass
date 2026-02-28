@@ -1,0 +1,7 @@
+{
+  "name": "Career Compass",
+  "description": "An AI-powered career guidance platform providing personalized recommendations, skill assessments, and structured roadmaps for aspiring tech professionals.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
