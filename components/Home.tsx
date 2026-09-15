@@ -81,5 +81,4 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
     </div>
   );
 };
-
 export default Home;
